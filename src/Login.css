@@ -1,0 +1,65 @@
+.loginForm {
+  display: block;
+}
+
+.bg-light {
+  background-color: none;
+}
+/* .contact {
+  background-color: #6372ff;
+} */
+.contactform > input {
+  border: none;
+}
+.login {
+  background-image: url(https://react-landing-page-template-93ne.vercel.app/img/intro-bg.jpg);
+}
+.register {
+  background-image: url(https://react-landing-page-template-93ne.vercel.app/img/intro-bg.jpg);
+}
+.nav-link:focus,
+.nav-link:hover {
+  text-decoration: 3px solid #608dfd underline;
+}
+.hover-bg {
+  position: relative;
+}
+.hover-bg .hover-text {
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
+  width: 28.5rem;
+  height: 100%;
+  opacity: 0;
+  padding: 30% 0 0 0;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+.hover-text:hover {
+  opacity: 1;
+}
+.gallery > a:hover {
+  color: #608dfd;
+}
+.img-responsive {
+  width: 28.5rem;
+}
+.icons:hover {
+  cursor: pointer;
+}
+.inputs > input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+.inputs > input:focus {
+  border: none;
+}
+.socialMediaIcons:hover {
+  background: white;
+  color: #608dfd;
+}
